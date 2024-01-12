@@ -1,0 +1,27 @@
+current directory: /home/abhishek/rails_work/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+/usr/share/rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for rb_io_path()... no
+checking for rb_io_descriptor()... yes
+checking for rb_io_get_write_io()... yes
+checking for rb_io_closed_p()... no
+checking for rb_io_open_descriptor()... no
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
+creating Makefile
+
+current directory: /home/abhishek/rails_work/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240112-59098-5qpm9a sitelibdir\=./.gem.20240112-59098-5qpm9a clean
+
+current directory: /home/abhishek/rails_work/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240112-59098-5qpm9a sitelibdir\=./.gem.20240112-59098-5qpm9a
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /home/abhishek/rails_work/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240112-59098-5qpm9a sitelibdir\=./.gem.20240112-59098-5qpm9a install
+/usr/bin/install -m 0755 console.so ./.gem.20240112-59098-5qpm9a/io
+
+current directory: /home/abhishek/rails_work/blog_demo/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.1/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240112-59098-5qpm9a sitelibdir\=./.gem.20240112-59098-5qpm9a clean
